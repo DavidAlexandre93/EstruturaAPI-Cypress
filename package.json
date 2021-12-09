@@ -1,0 +1,24 @@
+{
+  "name": "cypress-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:Cypress": "npx cypress open",
+    "test:recordCypress": " npx cypress run -b chrome --record --key acb5c9c2-9e3e-401c-b047-60eb7ac5973a",
+    "test:api": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "cypress-cucumber-preprocessor": "^1.12.0",
+    "mochawesome": "^6.2.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "dependencies": {
+    "node-rest-server": "^2.1.0"
+  }
+}

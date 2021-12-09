@@ -1,2 +1,2 @@
-# EstruturaAPI-Cypress
-Estrutura de projeto para automação de teste em API com Cypress
+# AutomotionCypressBDD_API-PageObjects
+Automação Cypress em Page Objects com BDD e API

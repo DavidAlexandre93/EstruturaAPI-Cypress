@@ -1,0 +1,12 @@
+Estrutura padrao para o teste de API com pasta principal services e dentro da mesma suas sub-pastas constracts,payloads,requests e tests 
+
+
+
+===========================================================================================================================================
+
+Para filtrar os arquivos de teste em cypress.json
+"testFiles": "",
+
+===========================================================================================================================================
+
+
